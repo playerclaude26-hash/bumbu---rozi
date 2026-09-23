@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bumbu Rozi</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #fffaf2;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #8b1e1e;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 32px;
+    }
+
+    header p {
+      margin-top: 5px;
+    }
+
+    nav {
+      background: #6f1515;
+      padding: 12px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+
+    .hero {
+      padding: 70px 20px;
+      text-align: center;
+      background: #f4d7a1;
+    }
+
+    .hero h2 {
+      font-size: 38px;
+      color: #6f1515;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #25d366;
+      color: white;
+      padding: 12px 22px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 45px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      color: #8b1e1e;
+      margin-bottom: 25px;
+      font-size: 28px;
+    }
+
+    .produk {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.12);
+    }
+
+    .foto {
+      height: 150px;
+      background: #f0c987;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 50px;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      color: #6f1515;
+      margin-bottom: 8px;
+    }
+
+    .harga {
+      font-weight: bold;
+      color: #c26b00;
+      margin: 10px 0;
+    }
+
+    .pesan {
+      display: inline-block;
+      background: #25d366;
+      color: white;
+      padding: 8px 14px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .tentang {
+      text-align: center;
+      background: #fff;
+      border-radius: 12px;
+      padding: 30px;
+    }
+
+    .testimoni {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .testi {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .kontak {
+      text-align: center;
+    }
+
+    footer {
+      background: #6f1515;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🌶️ Bumbu Rozi</h1>
+    <p>Rasa Lezat, Bumbu Pilihan</p>
+  </header>
+
+  <nav>
+    <a href="#beranda">Beranda</a>
+    <a href="#produk">Produk</a>
+    <a href="#tentang">Tentang</a>
+    <a href="#testimoni">Testimoni</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <div class="hero" id="beranda">
+    <h2>Selamat Datang di Bumbu Rozi</h2>
+    <p>Nikmati aneka bumbu dan makanan dengan cita rasa yang lezat.</p>
+
+    <a class="btn"
+       href="https://wa.me/6280000000000?text=Halo%20Bumbu%20Rozi%2C%20saya%20ingin%20memesan."
+       target="_blank">
+      💬 Pesan melalui WhatsApp
+    </a>
+  </div>
+
+  <section id="produk">
+    <h2>🍽️ Produk Kami</h2>
+
+    <div class="produk">
+
+      <div class="card">
+        <div class="foto">🍛</div>
+        <h3>Rendang</h3>
+        <p>Bumbu rendang dengan cita rasa khas.</p>
+        <div class="harga">Harga: Hubungi kami</div>
+        <a class="pesan" href="https://wa.me/6280000000000" target="_blank">Pesan</a>
+      </div>
+
+      <div class="card">
+        <div class="foto">🥘</div>
+        <h3>Gulai</h3>
+        <p>Bumbu gulai gurih dan kaya rempah.</p>
+        <div class="harga">Harga: Hubungi kami</div>
+        <a class="pesan" href="https://wa.me/6280000000000" target="_blank">Pesan</a>
+      </div>
+
+      <div class="card">
+        <div class="foto">🍲</div>
+        <h3>Kari</h3>
+        <p>Bumbu kari harum dan menggugah selera.</p>
+        <div class="harga">Harga: Hubungi kami</div>
+        <a class="pesan" href="https://wa.me/6280000000000" target="_blank">Pesan</a>
+      </div>
+
+      <div class="card">
+        <div class="foto">🍜</div>
+        <h3>Soto</h3>
+        <p>Bumbu soto dengan aroma rempah pilihan.</p>
+        <div class="harga">Harga: Hubungi kami</div>
+        <a class="pesan" href="https://wa.me/6280000000000" target="_blank">Pesan</a>
+      </div>
+
+      <div class="card">
+        <div class="foto">🍲</div>
+        <h3>SOP</h3>
+        <p>Bumbu sop untuk masakan keluarga.</p>
+        <div class="harga">Harga: Hubungi kami</div>
+        <a class="pesan" href="https://wa.me/6280000000000" target="_blank">Pesan</a>
+      </div>
+
+      <div class="card">
+        <div class="foto">🍗</div>
+        <h3>Ayam Goreng</h3>
+        <p>Bumbu ayam goreng gurih dan lezat.</p>
+        <div class="harga">Harga: Hubungi kami</div>
+        <a class="pesan" href="https://wa.me/6280000000000" target="_blank">Pesan</a>
+      </div>
+
+      <div class="card">
+        <div class="foto">🍗</div>
+        <h3>Panggang</h3>
+        <p>Bumbu panggang dengan rasa istimewa.</p>
+        <div class="harga">Harga: Hubungi kami</div>
+        <a class="pesan" href="https://wa.me/6280000000000" target="_blank">Pesan</a>
+      </div>
+
+      <div class="card">
+        <div class="foto">🍚</div>
+        <h3>Nasi Goreng</h3>
+        <p>Bumbu nasi goreng praktis dan nikmat.</p>
+        <div class="harga">Harga: Hubungi kami</div>
+        <a class="pesan" href="https://wa.me/6280000000000" target="_blank">Pesan</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="tentang">
+    <h2>👨‍🍳 Tentang Bumbu Rozi</h2>
+
+    <div class="tentang">
+      <p>
+        Bumbu Rozi hadir untuk membantu membuat masakan menjadi
+        lebih lezat dengan bumbu pilihan dan cita rasa yang khas.
+      </p>
+    </div>
+  </section>
+
+  <section id="testimoni">
+    <h2>⭐ Testimoni</h2>
+
+    <div class="testimoni">
+      <div class="testi">
+        <p>"Bumbunya enak dan masak jadi lebih praktis."</p>
+        <strong>— Pelanggan Bumbu Rozi</strong>
+      </div>
+
+      <div class="testi">
+        <p>"Rasanya mantap dan cocok untuk masakan keluarga."</p>
+        <strong>— Pelanggan Bumbu Rozi</strong>
+      </div>
+
+      <div class="testi">
+        <p>"Aromanya harum dan rasanya bikin ketagihan."</p>
+        <strong>— Pelanggan Bumbu Rozi</strong>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontak">
+    <h2>📱 Hubungi Kami</h2>
+
+    <div class="kontak">
+      <p>Untuk pemesanan dan informasi produk, silakan hubungi Bumbu Rozi melalui WhatsApp.</p>
+      <br>
+
+      <a class="btn"
+         href="https://wa.me/6280000000000?text=Halo%20Bumbu%20Rozi%2C%20saya%20ingin%20memesan."
+         target="_blank">
+        💬 Chat WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Bumbu Rozi. Semua hak dilindungi.</p>
+  </footer>
+
+</body>
+  </html>
